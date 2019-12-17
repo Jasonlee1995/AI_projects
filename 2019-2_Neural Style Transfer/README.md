@@ -1,11 +1,11 @@
 # 2019-2 Neural Style Transfer Project
-- paper : [A Neural Algorithm of Artistic Style](https://arxiv.org/pdf/1508.06576.pdf)
-- source code : [Neural Transfer using Pytorch](https://pytorch.org/tutorials/advanced/neural_style_tutorial.html)
+- Paper : [A Neural Algorithm of Artistic Style](https://arxiv.org/pdf/1508.06576.pdf)
+- Source code : [Neural Transfer using Pytorch](https://pytorch.org/tutorials/advanced/neural_style_tutorial.html)
 
 
 ### Project Experiment
 - 8 style images & 1 content image
-- 7 different input size : 2048, 1024, 512, 256, 128, 64, 32
+- 7 different input sizes : 2048*2048, 1024*1024, 512*512, 256*256, 128*128, 64*64, 32*32
 - See result and progresses on jupyter notebook
 
 > 1 content image  
