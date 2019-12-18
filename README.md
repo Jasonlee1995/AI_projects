@@ -1,4 +1,5 @@
 # AI Project
 
 ### 2019-2
-- Neural Style Transfer
+- 2019-2_Linear Regression
+- 2019-2_Neural Style Transfer
