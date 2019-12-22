@@ -6,7 +6,7 @@
 - Predict patient have diabetes or not using logistic regression
 - 500 train datas are provided (logistic_regression_training_data.csv)
 - 268 test datas are provided (logistic_regression_testing_data.csv)
-- Use only numpy, pandas, matplotlib (not scipy and other frameworks)
+- Use only numpy, pandas, matplotlib (not sklearn and other frameworks)
 
 
 ### Details

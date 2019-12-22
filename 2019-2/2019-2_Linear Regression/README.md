@@ -5,7 +5,7 @@
 
 - Estimate exam score using linear regression (gradient descent, closed form solution)
 - 1,000 datas are provided (exam_scores.csv)
-- Use only numpy, pandas, matplotlib (not scipy and other frameworks)
+- Use only numpy, pandas, matplotlib (not sklearn and other frameworks)
 
 
 ### Details

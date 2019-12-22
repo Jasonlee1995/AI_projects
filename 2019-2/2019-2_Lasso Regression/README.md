@@ -6,7 +6,7 @@
 - Estimate crime rate using Coordinate Descent Lasso Regression (variable name : ViolentCrimesPerProp)
 - 1,595 train datas are provided (crime-train.csv)
 - 399 test datas are provided (crime-test.csv)
-- Use only numpy, pandas, matplotlib (not scipy and other frameworks)
+- Use only numpy, pandas, matplotlib (not sklearn and other frameworks)
 
 
 ### Details
