@@ -6,6 +6,7 @@
 - 2019-2_Lasso Regression
 - 2019-2_Linear Regression
 - 2019-2_Logistic Regression
+- 2019-2_Multilayer Perceptron
 - 2019-2_Neural Style Transfer
 - 2019-2_Perceptron
 
