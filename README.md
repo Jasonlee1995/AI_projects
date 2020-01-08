@@ -1,6 +1,7 @@
 # AI Project
 
 ### 2019-2
+- 2019-2_Convolutional Neural Network
 - 2019-2_K-means Clustering
 - 2019-2_KNN
 - 2019-2_Lasso Regression
