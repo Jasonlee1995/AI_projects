@@ -1,15 +1,30 @@
 # AI Projects
 
 ## ResNet
-- ResNet 50 experiment on ImageNet
-- Train epoch : 120
-- Warmup epoch : 5
-- SGD optimizer
-- Momentum : 0.9
-- Weight decay : 1e-4
-- Cosine decay
+- ResNet 50 automatic mixed precision training on ImageNet
 
-|Logs|Acc|Batch Size|Learning Rate|GPU usage|
+### Base Config
+|config|value|
+|:-:|:-:|
+|optimizer|SGD|
+|weight decay|1e-4|
+|optimizer momentum|0.9|
+|learning rate schedule|cosine decay|
+|warmup epochs|5|
+|augmentation|RandomResizedCrop|
+
+- base learning rate and batch size if different per experiment
+- not used nn.SyncBatchNorm on DDP but want to use, change code like below
+
+```
+net = torchvision.models.resnet50().cuda(gpu)
+net = nn.SyncBatchNorm.convert_sync_batchnorm(net)
+net = DistributedDataParallel(net, device_ids=[gpu])
+```
+
+
+### Experiment Results
+|logs|acc|batch size|learning rate|GPU usage|
 |:-:|:-:|:-:|:-:|:-:|
 |ResNet 50 - 128 - DDP|76.2580|128|0.1|use 2 GPU|
 |ResNet 50 - 128 - DDP - half|76.6780|128|0.05|use 2 GPU|
