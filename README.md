@@ -32,3 +32,5 @@ net = DistributedDataParallel(net, device_ids=[gpu])
 |ResNet 50 - 128 - single - half|77.1320|128|0.05|use 1 GPU|
 |ResNet 50 - 256 - DDP|76.6380|256|0.1|use 2 GPU|
 |ResNet 50 - 256 - single|77.0360|256|0.1|use 1 GPU|
+|ResNet 50 - 512 - DDP|76.5920|512|0.2|use 4 GPU|
+|ResNet 50 - 512 - DDP - BCE loss|77.3220|512|0.2|use 4 GPU|
