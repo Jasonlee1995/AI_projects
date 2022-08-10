@@ -1,6 +1,7 @@
 import math, os
 
 
+
 ''' scheduler '''
 
 def cosine_scheduler(optimizer, epoch, args):
@@ -14,19 +15,6 @@ def cosine_scheduler(optimizer, epoch, args):
         param_group['lr'] = lr
     
     return lr
-
-
-def step_scheduler(optimizer, epoch, args):
-    lr = args.lr
-    for milestone in args.schedule:
-        if epoch >= milestone:
-            lr *= 0.1
-    
-    for param_group in optimizer.param_groups:
-        param_group['lr'] = lr
-    
-    return lr
-
 
 
 ''' logger '''
