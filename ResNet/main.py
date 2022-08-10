@@ -14,27 +14,30 @@ torch.backends.cudnn.benchmark = True
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--port-num',      default='9999', type=str)
-parser.add_argument('--world-size',    default=2, type=int, help='number of gpus for ddp')
+parser.add_argument('--port-num',      default='8888', type=str)
+parser.add_argument('--world-size',    default=4, type=int, help='number of gpus for ddp')
 
 parser.add_argument('--data-dir',      default='/mnt/ssd1/ImageNet', type=str)
 parser.add_argument('--batch-size',    default=256, type=int)
 parser.add_argument('--num-workers',   default=8, type=int)
+parser.add_argument('--num-classes',   default=1000, type=int)
 
 parser.add_argument('--start-epoch',   default=0, type=int)
 parser.add_argument('--epochs',        default=120, type=int)
 parser.add_argument('--warmup-epochs', default=5, type=int)
 parser.add_argument('--min-lr',        default=1e-8, type=float)
 
-parser.add_argument('--lr',            default=0.1, type=float)
+parser.add_argument('--lr',            default=0.1, type=float, help='0.1 * batch_size / 256')
 parser.add_argument('--momentum',      default=0.9, type=float)
 parser.add_argument('--weight-decay',  default=0.0001, type=float)
+
+parser.add_argument('--loss-type',     default='CE', type=str)
 
 parser.add_argument('--resume',        default='', type=str, help='latest checkpoint')
 parser.add_argument('--save',          action='store_true', help='save logs, checkpoints')
 parser.add_argument('--save-name',     default='ResNet50', type=str)
-parser.add_argument('--save-freq',     default=200, type=int)
-parser.add_argument('--print-freq',    default=100, type=int)
+parser.add_argument('--save-freq',     default=1, type=int)
+parser.add_argument('--print-freq',    default=500, type=int)
 parser.add_argument('--log',           default='./logs/', type=str)
 parser.add_argument('--checkpoint',    default='./checkpoints/', type=str)
 args = parser.parse_args()
@@ -52,7 +55,9 @@ def main(gpu, world_size):
     init_process(gpu, world_size)
 
     # dataloader
-    train_dataset = data.ImageNetDB(os.path.join(args.data_dir, 'train'), transform=data.train_transform())
+    train_dataset = data.ImageNetDB(os.path.join(args.data_dir, 'train'),
+                                    num_classes=args.num_classes,
+                                    transform=data.train_transform())
     train_sampler = DistributedSampler(train_dataset, rank=gpu, num_replicas=args.world_size, shuffle=True, drop_last=True)
     train_loader  = torch.utils.data.DataLoader(train_dataset,
                                                 batch_size=int(args.batch_size / args.world_size),
@@ -62,7 +67,9 @@ def main(gpu, world_size):
                                                 pin_memory=True,
                                                 drop_last=True)
     
-    val_dataset = data.ImageNetDB(os.path.join(args.data_dir, 'val'), transform=data.val_transform())
+    val_dataset = data.ImageNetDB(os.path.join(args.data_dir, 'val'), 
+                                  num_classes=args.num_classes,
+                                  transform=data.val_transform())
     val_sampler = DistributedSampler(val_dataset, rank=gpu, num_replicas=args.world_size, shuffle=False, drop_last=False)
     val_loader  = torch.utils.data.DataLoader(val_dataset,
                                               batch_size=int(args.batch_size / args.world_size),
@@ -74,13 +81,19 @@ def main(gpu, world_size):
 
     # model
     net = torchvision.models.resnet50().cuda(gpu)
+    net = nn.SyncBatchNorm.convert_sync_batchnorm(net)
     net = DistributedDataParallel(net, device_ids=[gpu])
 
     # optimizer
     optimizer = optim.SGD(net.parameters(), lr=args.lr, momentum=args.momentum, weight_decay=args.weight_decay)
 
     # critertion
-    criterion = nn.CrossEntropyLoss().cuda(gpu)
+    if args.loss_type == 'CE':
+        c = nn.CrossEntropyLoss().cuda(gpu)
+        criterion = lambda pred, real, _: c(pred, real)
+    elif args.loss_type == 'BCE':
+        c = nn.MultiLabelSoftMarginLoss().cuda(gpu)
+        criterion = lambda pred, _, real: args.num_classes * c(pred, real)
 
     # logger
     logger = utils.Logger(args)
@@ -104,13 +117,13 @@ def main(gpu, world_size):
 
         train_loss = []
         train_start = time.time()
-        for i, (imgs, labels) in enumerate(train_loader):
+        for i, (imgs, labels, one_hots) in enumerate(train_loader):
             lr = utils.cosine_scheduler(optimizer, epoch + i/len(train_loader), args)
-            imgs, labels = imgs.cuda(gpu), labels.cuda(gpu)
+            imgs, labels, one_hots = imgs.cuda(gpu), labels.cuda(gpu), one_hots.cuda(gpu)
             
             with torch.cuda.amp.autocast():
                 output = net(imgs)
-                loss = criterion(output, labels)
+                loss = criterion(output, labels, one_hots)
             
             optimizer.zero_grad()
             scaler.scale(loss).backward()
@@ -133,22 +146,22 @@ def main(gpu, world_size):
         
         val_start = time.time()
         with torch.no_grad():
-            val_loss, correct = [], 0
-            for imgs, labels in val_loader:
-                imgs, labels = imgs.cuda(gpu), labels.cuda(gpu)
+            val_loss, corrects = [], 0
+            for imgs, labels, one_hots in val_loader:
+                imgs, labels, one_hots = imgs.cuda(gpu), labels.cuda(gpu), one_hots.cuda(gpu)
                 
                 with torch.cuda.amp.autocast():
                     output = net(imgs)
-                    loss = criterion(output, labels)
+                    loss = criterion(output, labels, one_hots)
                     
                 predict = torch.argmax(output, 1)
-                c = (predict == labels).sum()
+                correct = (predict == labels).sum()
                 
                 dist.barrier()
                 dist.all_reduce(loss, op=dist.ReduceOp.SUM)
-                dist.all_reduce(c, op=dist.ReduceOp.SUM)
+                dist.all_reduce(correct, op=dist.ReduceOp.SUM)
                 if dist.get_rank() == 0:
-                    correct += c.item()
+                    corrects += correct.item()
                     val_loss.append(loss.item() / args.world_size)
                     
         val_time = time.strftime('%H:%M:%S', time.gmtime(time.time() - val_start))
@@ -158,7 +171,7 @@ def main(gpu, world_size):
         if dist.get_rank() == 0:
             train_loss = sum(train_loss) / len(train_loss)
             val_loss = sum(val_loss) / len(val_loss)
-            acc = 100 * correct / len(val_dataset)
+            acc = 100 * corrects / len(val_dataset)
             print(); print('-' * 50)
             print('Epoch : {}'.format(epoch))
             print('Acc : {:.4f}'.format(acc))

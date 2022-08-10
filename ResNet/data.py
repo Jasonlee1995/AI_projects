@@ -1,6 +1,7 @@
 import random, os
+import torch
 
-from PIL import Image, ImageFilter
+from PIL import Image
 from torchvision import transforms
 from torch.utils.data import Dataset, DataLoader
 
@@ -26,17 +27,11 @@ def val_transform():
     return transform
 
 
-def get_transform(_type):
-    if _type == 'train':
-        return train_transform()
-    elif _type == 'val':
-        return val_transform()
-
-
 class ImageNetDB(Dataset):
-    def __init__(self, data_dir, transform=None):
+    def __init__(self, data_dir, num_classes=1000, transform=None):
         self.imgs = []
         self.labels = []
+        self.num_classes = num_classes
         self.transform = transform
         
         for label in sorted(os.listdir(data_dir)):
@@ -53,18 +48,9 @@ class ImageNetDB(Dataset):
         if self.transform: img = self.transform(img)
             
         label = self.labels[idx]
-        return img, label
+        one_hot = torch.zeros((self.num_classes)).to(int)
+        one_hot[label] = 1
+        return img, label, one_hot
 
     def __len__(self):
         return len(self.imgs)
-    
-    
-def get_dataloader(_type, args):
-    dataset = ImageNetDB(os.path.join(args.data_dir, _type), transform=get_transform(_type))
-    dataloader = DataLoader(dataset, 
-                            batch_size=args.batch_size, 
-                            num_workers=args.num_workers,
-                            shuffle=_type=='train',
-                            pin_memory=True,
-                            drop_last=False)
-    return dataloader
