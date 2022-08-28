@@ -70,7 +70,6 @@ def main(args):
     
     # save event logs
     train_events = torch.zeros(len(train_dataset), args.epochs).to(int).cuda(gpu)
-    val_events = torch.zeros(len(val_dataset), args.epochs).to(int).cuda(gpu)
         
     # scaler
     scaler = torch.cuda.amp.GradScaler()
@@ -128,7 +127,6 @@ def main(args):
                     loss = criterion(output, labels)
 
                 predict = torch.argmax(output, 1)
-                val_events[idxs, epoch] = (predict == labels).to(int)
                 c = (predict == labels).sum()
                 
                 correct += c.item()
@@ -164,12 +162,7 @@ def main(args):
     train_log = os.path.join(args.npy, '{}_train.npy'.format(args.save_name))
     with open(train_log, 'wb') as l:
         np.save(l, train_events)
-        
-    val_events = val_events.cpu().numpy()
-    val_log = os.path.join(args.npy, '{}_val.npy'.format(args.save_name))
-    with open(val_log, 'wb') as l:
-        np.save(l, val_events)
-        
+
 
 
 if __name__ == '__main__':
