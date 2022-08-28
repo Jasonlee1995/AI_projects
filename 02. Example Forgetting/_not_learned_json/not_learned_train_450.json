@@ -1,0 +1,1679 @@
+{
+    "tench": [],
+    "goldfish": [],
+    "great_white_shark": [
+        "/mnt/ssd1/ImageNet/train/2/n01484850_8162.JPEG"
+    ],
+    "tiger_shark": [],
+    "hammerhead": [],
+    "electric_ray": [
+        "/mnt/ssd1/ImageNet/train/5/n01496331_18779.JPEG",
+        "/mnt/ssd1/ImageNet/train/5/n01496331_26270.JPEG"
+    ],
+    "stingray": [],
+    "cock": [],
+    "hen": [
+        "/mnt/ssd1/ImageNet/train/8/n01514859_24597.JPEG"
+    ],
+    "ostrich": [],
+    "brambling": [
+        "/mnt/ssd1/ImageNet/train/10/n01530575_10292.JPEG"
+    ],
+    "goldfinch": [],
+    "house_finch": [],
+    "junco": [],
+    "indigo_bunting": [],
+    "robin": [],
+    "bulbul": [],
+    "jay": [],
+    "magpie": [],
+    "chickadee": [],
+    "water_ouzel": [
+        "/mnt/ssd1/ImageNet/train/20/n01601694_1934.JPEG"
+    ],
+    "kite": [],
+    "bald_eagle": [],
+    "vulture": [],
+    "great_grey_owl": [],
+    "European_fire_salamander": [],
+    "common_newt": [],
+    "eft": [
+        "/mnt/ssd1/ImageNet/train/27/n01631663_4980.JPEG",
+        "/mnt/ssd1/ImageNet/train/27/n01631663_5062.JPEG"
+    ],
+    "spotted_salamander": [],
+    "axolotl": [
+        "/mnt/ssd1/ImageNet/train/29/n01632777_2380.JPEG"
+    ],
+    "bullfrog": [
+        "/mnt/ssd1/ImageNet/train/30/n01641577_1036.JPEG"
+    ],
+    "tree_frog": [
+        "/mnt/ssd1/ImageNet/train/31/n01644373_8084.JPEG"
+    ],
+    "tailed_frog": [
+        "/mnt/ssd1/ImageNet/train/32/n01644900_2166.JPEG"
+    ],
+    "loggerhead": [
+        "/mnt/ssd1/ImageNet/train/33/n01664065_31648.JPEG"
+    ],
+    "leatherback_turtle": [],
+    "mud_turtle": [],
+    "terrapin": [
+        "/mnt/ssd1/ImageNet/train/36/n01667778_18727.JPEG"
+    ],
+    "box_turtle": [],
+    "banded_gecko": [
+        "/mnt/ssd1/ImageNet/train/38/n01675722_666.JPEG",
+        "/mnt/ssd1/ImageNet/train/38/n01675722_7373.JPEG"
+    ],
+    "common_iguana": [
+        "/mnt/ssd1/ImageNet/train/39/n01677366_12837.JPEG"
+    ],
+    "American_chameleon": [],
+    "whiptail": [
+        "/mnt/ssd1/ImageNet/train/41/n01685808_6813.JPEG",
+        "/mnt/ssd1/ImageNet/train/41/n01685808_7439.JPEG"
+    ],
+    "agama": [],
+    "frilled_lizard": [
+        "/mnt/ssd1/ImageNet/train/43/n01688243_5257.JPEG",
+        "/mnt/ssd1/ImageNet/train/43/n01688243_7520.JPEG"
+    ],
+    "alligator_lizard": [
+        "/mnt/ssd1/ImageNet/train/44/n01689811_6823.JPEG",
+        "/mnt/ssd1/ImageNet/train/44/n01689811_9919.JPEG"
+    ],
+    "Gila_monster": [],
+    "green_lizard": [],
+    "African_chameleon": [],
+    "Komodo_dragon": [],
+    "African_crocodile": [
+        "/mnt/ssd1/ImageNet/train/49/n01697457_16947.JPEG"
+    ],
+    "American_alligator": [],
+    "triceratops": [],
+    "thunder_snake": [
+        "/mnt/ssd1/ImageNet/train/52/n01728572_11008.JPEG"
+    ],
+    "ringneck_snake": [
+        "/mnt/ssd1/ImageNet/train/53/n01728920_13453.JPEG",
+        "/mnt/ssd1/ImageNet/train/53/n01728920_5583.JPEG"
+    ],
+    "hognose_snake": [
+        "/mnt/ssd1/ImageNet/train/54/n01729322_12848.JPEG"
+    ],
+    "green_snake": [],
+    "king_snake": [],
+    "garter_snake": [
+        "/mnt/ssd1/ImageNet/train/57/n01735189_9257.JPEG"
+    ],
+    "water_snake": [],
+    "vine_snake": [
+        "/mnt/ssd1/ImageNet/train/59/n01739381_1352.JPEG",
+        "/mnt/ssd1/ImageNet/train/59/n01739381_8071.JPEG"
+    ],
+    "night_snake": [
+        "/mnt/ssd1/ImageNet/train/60/n01740131_10060.JPEG",
+        "/mnt/ssd1/ImageNet/train/60/n01740131_12072.JPEG"
+    ],
+    "boa_constrictor": [],
+    "rock_python": [],
+    "Indian_cobra": [
+        "/mnt/ssd1/ImageNet/train/63/n01748264_12261.JPEG"
+    ],
+    "green_mamba": [
+        "/mnt/ssd1/ImageNet/train/64/n01749939_2789.JPEG"
+    ],
+    "sea_snake": [
+        "/mnt/ssd1/ImageNet/train/65/n01751748_18783.JPEG",
+        "/mnt/ssd1/ImageNet/train/65/n01751748_20046.JPEG"
+    ],
+    "horned_viper": [
+        "/mnt/ssd1/ImageNet/train/66/n01753488_12709.JPEG",
+        "/mnt/ssd1/ImageNet/train/66/n01753488_14951.JPEG",
+        "/mnt/ssd1/ImageNet/train/66/n01753488_18539.JPEG"
+    ],
+    "diamondback": [],
+    "sidewinder": [],
+    "trilobite": [],
+    "harvestman": [],
+    "scorpion": [],
+    "black_and_gold_garden_spider": [],
+    "barn_spider": [],
+    "garden_spider": [],
+    "black_widow": [],
+    "tarantula": [],
+    "wolf_spider": [
+        "/mnt/ssd1/ImageNet/train/77/n01775062_4900.JPEG"
+    ],
+    "tick": [
+        "/mnt/ssd1/ImageNet/train/78/n01776313_22826.JPEG",
+        "/mnt/ssd1/ImageNet/train/78/n01776313_23309.JPEG"
+    ],
+    "centipede": [],
+    "black_grouse": [
+        "/mnt/ssd1/ImageNet/train/80/n01795545_15938.JPEG",
+        "/mnt/ssd1/ImageNet/train/80/n01795545_16940.JPEG",
+        "/mnt/ssd1/ImageNet/train/80/n01795545_18078.JPEG"
+    ],
+    "ptarmigan": [
+        "/mnt/ssd1/ImageNet/train/81/n01796340_1549.JPEG",
+        "/mnt/ssd1/ImageNet/train/81/n01796340_1897.JPEG"
+    ],
+    "ruffed_grouse": [
+        "/mnt/ssd1/ImageNet/train/82/n01797886_8017.JPEG"
+    ],
+    "prairie_chicken": [
+        "/mnt/ssd1/ImageNet/train/83/n01798484_13549.JPEG",
+        "/mnt/ssd1/ImageNet/train/83/n01798484_14019.JPEG"
+    ],
+    "peacock": [],
+    "quail": [],
+    "partridge": [],
+    "African_grey": [],
+    "macaw": [],
+    "sulphur-crested_cockatoo": [],
+    "lorikeet": [],
+    "coucal": [],
+    "bee_eater": [],
+    "hornbill": [],
+    "hummingbird": [],
+    "jacamar": [],
+    "toucan": [],
+    "drake": [],
+    "red-breasted_merganser": [],
+    "goose": [
+        "/mnt/ssd1/ImageNet/train/99/n01855672_7546.JPEG"
+    ],
+    "black_swan": [],
+    "tusker": [],
+    "echidna": [],
+    "platypus": [],
+    "wallaby": [],
+    "koala": [],
+    "wombat": [
+        "/mnt/ssd1/ImageNet/train/106/n01883070_18325.JPEG",
+        "/mnt/ssd1/ImageNet/train/106/n01883070_2060.JPEG",
+        "/mnt/ssd1/ImageNet/train/106/n01883070_23290.JPEG"
+    ],
+    "jellyfish": [],
+    "sea_anemone": [],
+    "brain_coral": [],
+    "flatworm": [],
+    "nematode": [],
+    "conch": [],
+    "snail": [],
+    "slug": [],
+    "sea_slug": [],
+    "chiton": [],
+    "chambered_nautilus": [],
+    "Dungeness_crab": [],
+    "rock_crab": [],
+    "fiddler_crab": [],
+    "king_crab": [],
+    "American_lobster": [],
+    "spiny_lobster": [],
+    "crayfish": [
+        "/mnt/ssd1/ImageNet/train/124/n01985128_35418.JPEG"
+    ],
+    "hermit_crab": [],
+    "isopod": [],
+    "white_stork": [],
+    "black_stork": [],
+    "spoonbill": [],
+    "flamingo": [],
+    "little_blue_heron": [
+        "/mnt/ssd1/ImageNet/train/131/n02009229_4682.JPEG"
+    ],
+    "American_egret": [],
+    "bittern": [],
+    "crane": [],
+    "limpkin": [],
+    "European_gallinule": [
+        "/mnt/ssd1/ImageNet/train/136/n02017213_1933.JPEG"
+    ],
+    "American_coot": [
+        "/mnt/ssd1/ImageNet/train/137/n02018207_11181.JPEG"
+    ],
+    "bustard": [],
+    "ruddy_turnstone": [],
+    "red-backed_sandpiper": [],
+    "redshank": [],
+    "dowitcher": [],
+    "oystercatcher": [],
+    "pelican": [],
+    "king_penguin": [],
+    "albatross": [],
+    "grey_whale": [],
+    "killer_whale": [],
+    "dugong": [],
+    "sea_lion": [],
+    "Chihuahua": [],
+    "Japanese_spaniel": [
+        "/mnt/ssd1/ImageNet/train/152/n02085782_12325.JPEG",
+        "/mnt/ssd1/ImageNet/train/152/n02085782_1263.JPEG",
+        "/mnt/ssd1/ImageNet/train/152/n02085782_13143.JPEG",
+        "/mnt/ssd1/ImageNet/train/152/n02085782_14116.JPEG"
+    ],
+    "Maltese_dog": [
+        "/mnt/ssd1/ImageNet/train/153/n02085936_19055.JPEG"
+    ],
+    "Pekinese": [
+        "/mnt/ssd1/ImageNet/train/154/n02086079_13076.JPEG",
+        "/mnt/ssd1/ImageNet/train/154/n02086079_140.JPEG"
+    ],
+    "Shih-Tzu": [
+        "/mnt/ssd1/ImageNet/train/155/n02086240_7862.JPEG",
+        "/mnt/ssd1/ImageNet/train/155/n02086240_8059.JPEG"
+    ],
+    "Blenheim_spaniel": [],
+    "papillon": [],
+    "toy_terrier": [
+        "/mnt/ssd1/ImageNet/train/158/n02087046_7207.JPEG"
+    ],
+    "Rhodesian_ridgeback": [],
+    "Afghan_hound": [
+        "/mnt/ssd1/ImageNet/train/160/n02088094_7174.JPEG"
+    ],
+    "basset": [],
+    "beagle": [],
+    "bloodhound": [
+        "/mnt/ssd1/ImageNet/train/163/n02088466_5708.JPEG",
+        "/mnt/ssd1/ImageNet/train/163/n02088466_6585.JPEG",
+        "/mnt/ssd1/ImageNet/train/163/n02088466_851.JPEG"
+    ],
+    "bluetick": [
+        "/mnt/ssd1/ImageNet/train/164/n02088632_1694.JPEG",
+        "/mnt/ssd1/ImageNet/train/164/n02088632_1945.JPEG"
+    ],
+    "black-and-tan_coonhound": [
+        "/mnt/ssd1/ImageNet/train/165/n02089078_3323.JPEG",
+        "/mnt/ssd1/ImageNet/train/165/n02089078_6618.JPEG"
+    ],
+    "Walker_hound": [
+        "/mnt/ssd1/ImageNet/train/166/n02089867_5107.JPEG"
+    ],
+    "English_foxhound": [
+        "/mnt/ssd1/ImageNet/train/167/n02089973_11392.JPEG",
+        "/mnt/ssd1/ImageNet/train/167/n02089973_5237.JPEG",
+        "/mnt/ssd1/ImageNet/train/167/n02089973_5422.JPEG",
+        "/mnt/ssd1/ImageNet/train/167/n02089973_6663.JPEG"
+    ],
+    "redbone": [
+        "/mnt/ssd1/ImageNet/train/168/n02090379_14066.JPEG",
+        "/mnt/ssd1/ImageNet/train/168/n02090379_1663.JPEG"
+    ],
+    "borzoi": [],
+    "Irish_wolfhound": [
+        "/mnt/ssd1/ImageNet/train/170/n02090721_2547.JPEG",
+        "/mnt/ssd1/ImageNet/train/170/n02090721_2879.JPEG",
+        "/mnt/ssd1/ImageNet/train/170/n02090721_7103.JPEG",
+        "/mnt/ssd1/ImageNet/train/170/n02090721_7496.JPEG"
+    ],
+    "Italian_greyhound": [],
+    "whippet": [],
+    "Ibizan_hound": [
+        "/mnt/ssd1/ImageNet/train/173/n02091244_9573.JPEG"
+    ],
+    "Norwegian_elkhound": [],
+    "otterhound": [
+        "/mnt/ssd1/ImageNet/train/175/n02091635_6154.JPEG",
+        "/mnt/ssd1/ImageNet/train/175/n02091635_7609.JPEG",
+        "/mnt/ssd1/ImageNet/train/175/n02091635_9564.JPEG"
+    ],
+    "Saluki": [],
+    "Scottish_deerhound": [
+        "/mnt/ssd1/ImageNet/train/177/n02092002_2546.JPEG",
+        "/mnt/ssd1/ImageNet/train/177/n02092002_731.JPEG"
+    ],
+    "Weimaraner": [],
+    "Staffordshire_bullterrier": [],
+    "American_Staffordshire_terrier": [],
+    "Bedlington_terrier": [],
+    "Border_terrier": [
+        "/mnt/ssd1/ImageNet/train/182/n02093754_2919.JPEG",
+        "/mnt/ssd1/ImageNet/train/182/n02093754_3445.JPEG",
+        "/mnt/ssd1/ImageNet/train/182/n02093754_4480.JPEG",
+        "/mnt/ssd1/ImageNet/train/182/n02093754_6073.JPEG",
+        "/mnt/ssd1/ImageNet/train/182/n02093754_6397.JPEG",
+        "/mnt/ssd1/ImageNet/train/182/n02093754_6483.JPEG",
+        "/mnt/ssd1/ImageNet/train/182/n02093754_7006.JPEG"
+    ],
+    "Kerry_blue_terrier": [
+        "/mnt/ssd1/ImageNet/train/183/n02093859_1697.JPEG",
+        "/mnt/ssd1/ImageNet/train/183/n02093859_1720.JPEG",
+        "/mnt/ssd1/ImageNet/train/183/n02093859_2834.JPEG",
+        "/mnt/ssd1/ImageNet/train/183/n02093859_2844.JPEG",
+        "/mnt/ssd1/ImageNet/train/183/n02093859_3263.JPEG",
+        "/mnt/ssd1/ImageNet/train/183/n02093859_3522.JPEG"
+    ],
+    "Irish_terrier": [
+        "/mnt/ssd1/ImageNet/train/184/n02093991_1613.JPEG",
+        "/mnt/ssd1/ImageNet/train/184/n02093991_1691.JPEG",
+        "/mnt/ssd1/ImageNet/train/184/n02093991_1966.JPEG",
+        "/mnt/ssd1/ImageNet/train/184/n02093991_2359.JPEG",
+        "/mnt/ssd1/ImageNet/train/184/n02093991_2538.JPEG",
+        "/mnt/ssd1/ImageNet/train/184/n02093991_2811.JPEG",
+        "/mnt/ssd1/ImageNet/train/184/n02093991_3073.JPEG",
+        "/mnt/ssd1/ImageNet/train/184/n02093991_3414.JPEG",
+        "/mnt/ssd1/ImageNet/train/184/n02093991_3770.JPEG",
+        "/mnt/ssd1/ImageNet/train/184/n02093991_4279.JPEG",
+        "/mnt/ssd1/ImageNet/train/184/n02093991_4475.JPEG",
+        "/mnt/ssd1/ImageNet/train/184/n02093991_5089.JPEG",
+        "/mnt/ssd1/ImageNet/train/184/n02093991_949.JPEG"
+    ],
+    "Norfolk_terrier": [
+        "/mnt/ssd1/ImageNet/train/185/n02094114_7087.JPEG",
+        "/mnt/ssd1/ImageNet/train/185/n02094114_7124.JPEG",
+        "/mnt/ssd1/ImageNet/train/185/n02094114_7289.JPEG",
+        "/mnt/ssd1/ImageNet/train/185/n02094114_789.JPEG"
+    ],
+    "Norwich_terrier": [
+        "/mnt/ssd1/ImageNet/train/186/n02094258_267.JPEG"
+    ],
+    "Yorkshire_terrier": [
+        "/mnt/ssd1/ImageNet/train/187/n02094433_2525.JPEG",
+        "/mnt/ssd1/ImageNet/train/187/n02094433_3686.JPEG"
+    ],
+    "wire-haired_fox_terrier": [
+        "/mnt/ssd1/ImageNet/train/188/n02095314_552.JPEG",
+        "/mnt/ssd1/ImageNet/train/188/n02095314_5964.JPEG",
+        "/mnt/ssd1/ImageNet/train/188/n02095314_6204.JPEG"
+    ],
+    "Lakeland_terrier": [
+        "/mnt/ssd1/ImageNet/train/189/n02095570_1293.JPEG"
+    ],
+    "Sealyham_terrier": [
+        "/mnt/ssd1/ImageNet/train/190/n02095889_1853.JPEG",
+        "/mnt/ssd1/ImageNet/train/190/n02095889_424.JPEG",
+        "/mnt/ssd1/ImageNet/train/190/n02095889_6469.JPEG"
+    ],
+    "Airedale": [
+        "/mnt/ssd1/ImageNet/train/191/n02096051_1154.JPEG",
+        "/mnt/ssd1/ImageNet/train/191/n02096051_2125.JPEG",
+        "/mnt/ssd1/ImageNet/train/191/n02096051_3146.JPEG",
+        "/mnt/ssd1/ImageNet/train/191/n02096051_5001.JPEG",
+        "/mnt/ssd1/ImageNet/train/191/n02096051_5151.JPEG",
+        "/mnt/ssd1/ImageNet/train/191/n02096051_6203.JPEG",
+        "/mnt/ssd1/ImageNet/train/191/n02096051_8894.JPEG"
+    ],
+    "cairn": [],
+    "Australian_terrier": [
+        "/mnt/ssd1/ImageNet/train/193/n02096294_12933.JPEG",
+        "/mnt/ssd1/ImageNet/train/193/n02096294_4180.JPEG"
+    ],
+    "Dandie_Dinmont": [],
+    "Boston_bull": [],
+    "miniature_schnauzer": [
+        "/mnt/ssd1/ImageNet/train/196/n02097047_1696.JPEG",
+        "/mnt/ssd1/ImageNet/train/196/n02097047_1717.JPEG",
+        "/mnt/ssd1/ImageNet/train/196/n02097047_448.JPEG"
+    ],
+    "giant_schnauzer": [
+        "/mnt/ssd1/ImageNet/train/197/n02097130_3171.JPEG",
+        "/mnt/ssd1/ImageNet/train/197/n02097130_3360.JPEG",
+        "/mnt/ssd1/ImageNet/train/197/n02097130_4633.JPEG",
+        "/mnt/ssd1/ImageNet/train/197/n02097130_7030.JPEG"
+    ],
+    "standard_schnauzer": [],
+    "Scotch_terrier": [
+        "/mnt/ssd1/ImageNet/train/199/n02097298_400.JPEG"
+    ],
+    "Tibetan_terrier": [
+        "/mnt/ssd1/ImageNet/train/200/n02097474_15911.JPEG",
+        "/mnt/ssd1/ImageNet/train/200/n02097474_2964.JPEG",
+        "/mnt/ssd1/ImageNet/train/200/n02097474_4222.JPEG",
+        "/mnt/ssd1/ImageNet/train/200/n02097474_4596.JPEG",
+        "/mnt/ssd1/ImageNet/train/200/n02097474_7302.JPEG",
+        "/mnt/ssd1/ImageNet/train/200/n02097474_8761.JPEG"
+    ],
+    "silky_terrier": [
+        "/mnt/ssd1/ImageNet/train/201/n02097658_486.JPEG"
+    ],
+    "soft-coated_wheaten_terrier": [
+        "/mnt/ssd1/ImageNet/train/202/n02098105_3817.JPEG",
+        "/mnt/ssd1/ImageNet/train/202/n02098105_601.JPEG"
+    ],
+    "West_Highland_white_terrier": [],
+    "Lhasa": [],
+    "flat-coated_retriever": [],
+    "curly-coated_retriever": [
+        "/mnt/ssd1/ImageNet/train/206/n02099429_3274.JPEG"
+    ],
+    "golden_retriever": [],
+    "Labrador_retriever": [],
+    "Chesapeake_Bay_retriever": [
+        "/mnt/ssd1/ImageNet/train/209/n02099849_3776.JPEG",
+        "/mnt/ssd1/ImageNet/train/209/n02099849_4416.JPEG"
+    ],
+    "German_short-haired_pointer": [
+        "/mnt/ssd1/ImageNet/train/210/n02100236_5961.JPEG"
+    ],
+    "vizsla": [],
+    "English_setter": [
+        "/mnt/ssd1/ImageNet/train/212/n02100735_13116.JPEG",
+        "/mnt/ssd1/ImageNet/train/212/n02100735_273.JPEG",
+        "/mnt/ssd1/ImageNet/train/212/n02100735_3413.JPEG",
+        "/mnt/ssd1/ImageNet/train/212/n02100735_5559.JPEG",
+        "/mnt/ssd1/ImageNet/train/212/n02100735_9371.JPEG"
+    ],
+    "Irish_setter": [
+        "/mnt/ssd1/ImageNet/train/213/n02100877_10957.JPEG",
+        "/mnt/ssd1/ImageNet/train/213/n02100877_417.JPEG",
+        "/mnt/ssd1/ImageNet/train/213/n02100877_9032.JPEG"
+    ],
+    "Gordon_setter": [
+        "/mnt/ssd1/ImageNet/train/214/n02101006_14026.JPEG",
+        "/mnt/ssd1/ImageNet/train/214/n02101006_8651.JPEG"
+    ],
+    "Brittany_spaniel": [
+        "/mnt/ssd1/ImageNet/train/215/n02101388_12682.JPEG",
+        "/mnt/ssd1/ImageNet/train/215/n02101388_3408.JPEG",
+        "/mnt/ssd1/ImageNet/train/215/n02101388_3954.JPEG"
+    ],
+    "clumber": [
+        "/mnt/ssd1/ImageNet/train/216/n02101556_15695.JPEG",
+        "/mnt/ssd1/ImageNet/train/216/n02101556_15728.JPEG",
+        "/mnt/ssd1/ImageNet/train/216/n02101556_1592.JPEG",
+        "/mnt/ssd1/ImageNet/train/216/n02101556_1716.JPEG",
+        "/mnt/ssd1/ImageNet/train/216/n02101556_1818.JPEG",
+        "/mnt/ssd1/ImageNet/train/216/n02101556_3342.JPEG",
+        "/mnt/ssd1/ImageNet/train/216/n02101556_6668.JPEG"
+    ],
+    "English_springer": [],
+    "Welsh_springer_spaniel": [],
+    "cocker_spaniel": [
+        "/mnt/ssd1/ImageNet/train/219/n02102318_1507.JPEG",
+        "/mnt/ssd1/ImageNet/train/219/n02102318_16366.JPEG"
+    ],
+    "Sussex_spaniel": [
+        "/mnt/ssd1/ImageNet/train/220/n02102480_12203.JPEG",
+        "/mnt/ssd1/ImageNet/train/220/n02102480_13519.JPEG",
+        "/mnt/ssd1/ImageNet/train/220/n02102480_2778.JPEG",
+        "/mnt/ssd1/ImageNet/train/220/n02102480_5978.JPEG",
+        "/mnt/ssd1/ImageNet/train/220/n02102480_6085.JPEG",
+        "/mnt/ssd1/ImageNet/train/220/n02102480_7422.JPEG"
+    ],
+    "Irish_water_spaniel": [
+        "/mnt/ssd1/ImageNet/train/221/n02102973_147.JPEG",
+        "/mnt/ssd1/ImageNet/train/221/n02102973_3343.JPEG"
+    ],
+    "kuvasz": [],
+    "schipperke": [],
+    "groenendael": [
+        "/mnt/ssd1/ImageNet/train/224/n02105056_2760.JPEG"
+    ],
+    "malinois": [
+        "/mnt/ssd1/ImageNet/train/225/n02105162_935.JPEG"
+    ],
+    "briard": [
+        "/mnt/ssd1/ImageNet/train/226/n02105251_1141.JPEG"
+    ],
+    "kelpie": [
+        "/mnt/ssd1/ImageNet/train/227/n02105412_3906.JPEG",
+        "/mnt/ssd1/ImageNet/train/227/n02105412_5246.JPEG",
+        "/mnt/ssd1/ImageNet/train/227/n02105412_7038.JPEG",
+        "/mnt/ssd1/ImageNet/train/227/n02105412_7322.JPEG"
+    ],
+    "komondor": [],
+    "Old_English_sheepdog": [],
+    "Shetland_sheepdog": [
+        "/mnt/ssd1/ImageNet/train/230/n02105855_6540.JPEG"
+    ],
+    "collie": [],
+    "Border_collie": [],
+    "Bouvier_des_Flandres": [],
+    "Rottweiler": [],
+    "German_shepherd": [],
+    "Doberman": [
+        "/mnt/ssd1/ImageNet/train/236/n02107142_39958.JPEG"
+    ],
+    "miniature_pinscher": [],
+    "Greater_Swiss_Mountain_dog": [
+        "/mnt/ssd1/ImageNet/train/238/n02107574_240.JPEG",
+        "/mnt/ssd1/ImageNet/train/238/n02107574_3925.JPEG",
+        "/mnt/ssd1/ImageNet/train/238/n02107574_3968.JPEG"
+    ],
+    "Bernese_mountain_dog": [],
+    "Appenzeller": [
+        "/mnt/ssd1/ImageNet/train/240/n02107908_10424.JPEG"
+    ],
+    "EntleBucher": [],
+    "boxer": [
+        "/mnt/ssd1/ImageNet/train/242/n02108089_521.JPEG"
+    ],
+    "bull_mastiff": [],
+    "Tibetan_mastiff": [
+        "/mnt/ssd1/ImageNet/train/244/n02108551_7231.JPEG",
+        "/mnt/ssd1/ImageNet/train/244/n02108551_968.JPEG"
+    ],
+    "French_bulldog": [],
+    "Great_Dane": [
+        "/mnt/ssd1/ImageNet/train/246/n02109047_20229.JPEG",
+        "/mnt/ssd1/ImageNet/train/246/n02109047_32856.JPEG"
+    ],
+    "Saint_Bernard": [
+        "/mnt/ssd1/ImageNet/train/247/n02109525_23638.JPEG"
+    ],
+    "Eskimo_dog": [
+        "/mnt/ssd1/ImageNet/train/248/n02109961_14630.JPEG"
+    ],
+    "malamute": [
+        "/mnt/ssd1/ImageNet/train/249/n02110063_13239.JPEG"
+    ],
+    "Siberian_husky": [],
+    "dalmatian": [],
+    "affenpinscher": [
+        "/mnt/ssd1/ImageNet/train/252/n02110627_14387.JPEG",
+        "/mnt/ssd1/ImageNet/train/252/n02110627_28698.JPEG",
+        "/mnt/ssd1/ImageNet/train/252/n02110627_30464.JPEG",
+        "/mnt/ssd1/ImageNet/train/252/n02110627_4689.JPEG"
+    ],
+    "basenji": [
+        "/mnt/ssd1/ImageNet/train/253/n02110806_3091.JPEG",
+        "/mnt/ssd1/ImageNet/train/253/n02110806_326.JPEG",
+        "/mnt/ssd1/ImageNet/train/253/n02110806_4696.JPEG",
+        "/mnt/ssd1/ImageNet/train/253/n02110806_613.JPEG",
+        "/mnt/ssd1/ImageNet/train/253/n02110806_6475.JPEG"
+    ],
+    "pug": [],
+    "Leonberg": [
+        "/mnt/ssd1/ImageNet/train/255/n02111129_1529.JPEG",
+        "/mnt/ssd1/ImageNet/train/255/n02111129_7913.JPEG",
+        "/mnt/ssd1/ImageNet/train/255/n02111129_951.JPEG"
+    ],
+    "Newfoundland": [
+        "/mnt/ssd1/ImageNet/train/256/n02111277_1311.JPEG",
+        "/mnt/ssd1/ImageNet/train/256/n02111277_13292.JPEG"
+    ],
+    "Great_Pyrenees": [],
+    "Samoyed": [],
+    "Pomeranian": [
+        "/mnt/ssd1/ImageNet/train/259/n02112018_1956.JPEG"
+    ],
+    "chow": [],
+    "keeshond": [
+        "/mnt/ssd1/ImageNet/train/261/n02112350_1435.JPEG",
+        "/mnt/ssd1/ImageNet/train/261/n02112350_1948.JPEG",
+        "/mnt/ssd1/ImageNet/train/261/n02112350_248.JPEG"
+    ],
+    "Brabancon_griffon": [
+        "/mnt/ssd1/ImageNet/train/262/n02112706_1292.JPEG",
+        "/mnt/ssd1/ImageNet/train/262/n02112706_5521.JPEG"
+    ],
+    "Pembroke": [],
+    "Cardigan": [
+        "/mnt/ssd1/ImageNet/train/264/n02113186_4805.JPEG"
+    ],
+    "toy_poodle": [
+        "/mnt/ssd1/ImageNet/train/265/n02113624_9296.JPEG",
+        "/mnt/ssd1/ImageNet/train/265/n02113624_9750.JPEG"
+    ],
+    "miniature_poodle": [],
+    "standard_poodle": [
+        "/mnt/ssd1/ImageNet/train/267/n02113799_2872.JPEG",
+        "/mnt/ssd1/ImageNet/train/267/n02113799_7410.JPEG"
+    ],
+    "Mexican_hairless": [
+        "/mnt/ssd1/ImageNet/train/268/n02113978_2752.JPEG"
+    ],
+    "timber_wolf": [
+        "/mnt/ssd1/ImageNet/train/269/n02114367_3688.JPEG"
+    ],
+    "white_wolf": [
+        "/mnt/ssd1/ImageNet/train/270/n02114548_12406.JPEG",
+        "/mnt/ssd1/ImageNet/train/270/n02114548_22553.JPEG",
+        "/mnt/ssd1/ImageNet/train/270/n02114548_25862.JPEG"
+    ],
+    "red_wolf": [
+        "/mnt/ssd1/ImageNet/train/271/n02114712_17658.JPEG",
+        "/mnt/ssd1/ImageNet/train/271/n02114712_20771.JPEG",
+        "/mnt/ssd1/ImageNet/train/271/n02114712_21283.JPEG"
+    ],
+    "coyote": [],
+    "dingo": [
+        "/mnt/ssd1/ImageNet/train/273/n02115641_2370.JPEG",
+        "/mnt/ssd1/ImageNet/train/273/n02115641_2520.JPEG",
+        "/mnt/ssd1/ImageNet/train/273/n02115641_4112.JPEG",
+        "/mnt/ssd1/ImageNet/train/273/n02115641_5736.JPEG",
+        "/mnt/ssd1/ImageNet/train/273/n02115641_9575.JPEG"
+    ],
+    "dhole": [
+        "/mnt/ssd1/ImageNet/train/274/n02115913_1067.JPEG",
+        "/mnt/ssd1/ImageNet/train/274/n02115913_2691.JPEG",
+        "/mnt/ssd1/ImageNet/train/274/n02115913_2764.JPEG",
+        "/mnt/ssd1/ImageNet/train/274/n02115913_5588.JPEG"
+    ],
+    "African_hunting_dog": [
+        "/mnt/ssd1/ImageNet/train/275/n02116738_6368.JPEG"
+    ],
+    "hyena": [],
+    "red_fox": [
+        "/mnt/ssd1/ImageNet/train/277/n02119022_11102.JPEG"
+    ],
+    "kit_fox": [],
+    "Arctic_fox": [
+        "/mnt/ssd1/ImageNet/train/279/n02120079_15688.JPEG"
+    ],
+    "grey_fox": [
+        "/mnt/ssd1/ImageNet/train/280/n02120505_1964.JPEG"
+    ],
+    "tabby": [],
+    "tiger_cat": [],
+    "Persian_cat": [],
+    "Siamese_cat": [],
+    "Egyptian_cat": [],
+    "cougar": [],
+    "lynx": [],
+    "leopard": [],
+    "snow_leopard": [
+        "/mnt/ssd1/ImageNet/train/289/n02128757_3304.JPEG"
+    ],
+    "jaguar": [
+        "/mnt/ssd1/ImageNet/train/290/n02128925_24904.JPEG",
+        "/mnt/ssd1/ImageNet/train/290/n02128925_76214.JPEG"
+    ],
+    "lion": [],
+    "tiger": [],
+    "cheetah": [],
+    "brown_bear": [],
+    "American_black_bear": [],
+    "ice_bear": [],
+    "sloth_bear": [
+        "/mnt/ssd1/ImageNet/train/297/n02134418_12959.JPEG"
+    ],
+    "mongoose": [
+        "/mnt/ssd1/ImageNet/train/298/n02137549_968.JPEG"
+    ],
+    "meerkat": [
+        "/mnt/ssd1/ImageNet/train/299/n02138441_1170.JPEG"
+    ],
+    "tiger_beetle": [
+        "/mnt/ssd1/ImageNet/train/300/n02165105_11506.JPEG"
+    ],
+    "ladybug": [],
+    "ground_beetle": [
+        "/mnt/ssd1/ImageNet/train/302/n02167151_7680.JPEG"
+    ],
+    "long-horned_beetle": [
+        "/mnt/ssd1/ImageNet/train/303/n02168699_6300.JPEG"
+    ],
+    "leaf_beetle": [],
+    "dung_beetle": [
+        "/mnt/ssd1/ImageNet/train/305/n02172182_11519.JPEG"
+    ],
+    "rhinoceros_beetle": [],
+    "weevil": [],
+    "fly": [],
+    "bee": [],
+    "ant": [
+        "/mnt/ssd1/ImageNet/train/310/n02219486_18717.JPEG"
+    ],
+    "grasshopper": [],
+    "cricket": [],
+    "walking_stick": [],
+    "cockroach": [
+        "/mnt/ssd1/ImageNet/train/314/n02233338_33252.JPEG"
+    ],
+    "mantis": [],
+    "cicada": [
+        "/mnt/ssd1/ImageNet/train/316/n02256656_20698.JPEG"
+    ],
+    "leafhopper": [],
+    "lacewing": [],
+    "dragonfly": [],
+    "damselfly": [],
+    "admiral": [],
+    "ringlet": [],
+    "monarch": [],
+    "cabbage_butterfly": [],
+    "sulphur_butterfly": [],
+    "lycaenid": [
+        "/mnt/ssd1/ImageNet/train/326/n02281787_1821.JPEG"
+    ],
+    "starfish": [
+        "/mnt/ssd1/ImageNet/train/327/n02317335_45148.JPEG"
+    ],
+    "sea_urchin": [],
+    "sea_cucumber": [],
+    "wood_rabbit": [],
+    "hare": [],
+    "Angora": [],
+    "hamster": [],
+    "porcupine": [
+        "/mnt/ssd1/ImageNet/train/334/n02346627_2177.JPEG"
+    ],
+    "fox_squirrel": [],
+    "marmot": [
+        "/mnt/ssd1/ImageNet/train/336/n02361337_4930.JPEG",
+        "/mnt/ssd1/ImageNet/train/336/n02361337_6814.JPEG",
+        "/mnt/ssd1/ImageNet/train/336/n02361337_7329.JPEG"
+    ],
+    "beaver": [
+        "/mnt/ssd1/ImageNet/train/337/n02363005_10060.JPEG",
+        "/mnt/ssd1/ImageNet/train/337/n02363005_14502.JPEG",
+        "/mnt/ssd1/ImageNet/train/337/n02363005_18841.JPEG"
+    ],
+    "guinea_pig": [],
+    "sorrel": [],
+    "zebra": [],
+    "hog": [],
+    "wild_boar": [],
+    "warthog": [],
+    "hippopotamus": [],
+    "ox": [],
+    "water_buffalo": [],
+    "bison": [],
+    "ram": [],
+    "bighorn": [],
+    "ibex": [],
+    "hartebeest": [],
+    "impala": [],
+    "gazelle": [
+        "/mnt/ssd1/ImageNet/train/353/n02423022_3768.JPEG"
+    ],
+    "Arabian_camel": [],
+    "llama": [],
+    "weasel": [
+        "/mnt/ssd1/ImageNet/train/356/n02441942_21491.JPEG"
+    ],
+    "mink": [
+        "/mnt/ssd1/ImageNet/train/357/n02442845_18865.JPEG",
+        "/mnt/ssd1/ImageNet/train/357/n02442845_19049.JPEG",
+        "/mnt/ssd1/ImageNet/train/357/n02442845_21427.JPEG",
+        "/mnt/ssd1/ImageNet/train/357/n02442845_5329.JPEG"
+    ],
+    "polecat": [
+        "/mnt/ssd1/ImageNet/train/358/n02443114_19080.JPEG",
+        "/mnt/ssd1/ImageNet/train/358/n02443114_27339.JPEG"
+    ],
+    "black-footed_ferret": [],
+    "otter": [],
+    "skunk": [],
+    "badger": [],
+    "armadillo": [],
+    "three-toed_sloth": [],
+    "orangutan": [],
+    "gorilla": [],
+    "chimpanzee": [],
+    "gibbon": [
+        "/mnt/ssd1/ImageNet/train/368/n02483362_19043.JPEG"
+    ],
+    "siamang": [
+        "/mnt/ssd1/ImageNet/train/369/n02483708_3817.JPEG"
+    ],
+    "guenon": [
+        "/mnt/ssd1/ImageNet/train/370/n02484975_9944.JPEG"
+    ],
+    "patas": [
+        "/mnt/ssd1/ImageNet/train/371/n02486261_11884.JPEG",
+        "/mnt/ssd1/ImageNet/train/371/n02486261_12043.JPEG",
+        "/mnt/ssd1/ImageNet/train/371/n02486261_14654.JPEG"
+    ],
+    "baboon": [],
+    "macaque": [],
+    "langur": [],
+    "colobus": [
+        "/mnt/ssd1/ImageNet/train/375/n02488702_1858.JPEG"
+    ],
+    "proboscis_monkey": [],
+    "marmoset": [
+        "/mnt/ssd1/ImageNet/train/377/n02490219_1052.JPEG",
+        "/mnt/ssd1/ImageNet/train/377/n02490219_4374.JPEG",
+        "/mnt/ssd1/ImageNet/train/377/n02490219_6307.JPEG"
+    ],
+    "capuchin": [],
+    "howler_monkey": [],
+    "titi": [
+        "/mnt/ssd1/ImageNet/train/380/n02493509_3027.JPEG",
+        "/mnt/ssd1/ImageNet/train/380/n02493509_8639.JPEG"
+    ],
+    "spider_monkey": [],
+    "squirrel_monkey": [
+        "/mnt/ssd1/ImageNet/train/382/n02494079_1261.JPEG",
+        "/mnt/ssd1/ImageNet/train/382/n02494079_7210.JPEG"
+    ],
+    "Madagascar_cat": [],
+    "indri": [
+        "/mnt/ssd1/ImageNet/train/384/n02500267_480.JPEG"
+    ],
+    "Indian_elephant": [],
+    "African_elephant": [],
+    "lesser_panda": [
+        "/mnt/ssd1/ImageNet/train/387/n02509815_3990.JPEG"
+    ],
+    "giant_panda": [
+        "/mnt/ssd1/ImageNet/train/388/n02510455_59828.JPEG"
+    ],
+    "barracouta": [],
+    "eel": [],
+    "coho": [
+        "/mnt/ssd1/ImageNet/train/391/n02536864_28031.JPEG"
+    ],
+    "rock_beauty": [
+        "/mnt/ssd1/ImageNet/train/392/n02606052_13152.JPEG",
+        "/mnt/ssd1/ImageNet/train/392/n02606052_19271.JPEG"
+    ],
+    "anemone_fish": [],
+    "sturgeon": [],
+    "gar": [],
+    "lionfish": [
+        "/mnt/ssd1/ImageNet/train/396/n02643566_1511.JPEG",
+        "/mnt/ssd1/ImageNet/train/396/n02643566_1611.JPEG"
+    ],
+    "puffer": [],
+    "abacus": [],
+    "abaya": [],
+    "academic_gown": [],
+    "accordion": [],
+    "acoustic_guitar": [
+        "/mnt/ssd1/ImageNet/train/402/n02676566_14172.JPEG"
+    ],
+    "aircraft_carrier": [],
+    "airliner": [],
+    "airship": [],
+    "altar": [
+        "/mnt/ssd1/ImageNet/train/406/n02699494_62439.JPEG"
+    ],
+    "ambulance": [],
+    "amphibian": [],
+    "analog_clock": [
+        "/mnt/ssd1/ImageNet/train/409/n02708093_7176.JPEG"
+    ],
+    "apiary": [],
+    "apron": [],
+    "ashcan": [
+        "/mnt/ssd1/ImageNet/train/412/n02747177_38559.JPEG",
+        "/mnt/ssd1/ImageNet/train/412/n02747177_7152.JPEG"
+    ],
+    "assault_rifle": [],
+    "backpack": [],
+    "bakery": [],
+    "balance_beam": [],
+    "balloon": [],
+    "ballpoint": [],
+    "Band_Aid": [],
+    "banjo": [],
+    "bannister": [],
+    "barbell": [],
+    "barber_chair": [],
+    "barbershop": [],
+    "barn": [],
+    "barometer": [],
+    "barrel": [],
+    "barrow": [],
+    "baseball": [],
+    "basketball": [],
+    "bassinet": [],
+    "bassoon": [],
+    "bathing_cap": [],
+    "bath_towel": [],
+    "bathtub": [],
+    "beach_wagon": [],
+    "beacon": [],
+    "beaker": [],
+    "bearskin": [],
+    "beer_bottle": [],
+    "beer_glass": [],
+    "bell_cote": [],
+    "bib": [],
+    "bicycle-built-for-two": [],
+    "bikini": [],
+    "binder": [],
+    "binoculars": [
+        "/mnt/ssd1/ImageNet/train/447/n02841315_14379.JPEG"
+    ],
+    "birdhouse": [
+        "/mnt/ssd1/ImageNet/train/448/n02843684_16435.JPEG"
+    ],
+    "boathouse": [],
+    "bobsled": [],
+    "bolo_tie": [
+        "/mnt/ssd1/ImageNet/train/451/n02865351_4621.JPEG"
+    ],
+    "bonnet": [],
+    "bookcase": [],
+    "bookshop": [],
+    "bottlecap": [
+        "/mnt/ssd1/ImageNet/train/455/n02877765_8116.JPEG"
+    ],
+    "bow": [
+        "/mnt/ssd1/ImageNet/train/456/n02879718_18045.JPEG"
+    ],
+    "bow_tie": [],
+    "brass": [],
+    "brassiere": [],
+    "breakwater": [],
+    "breastplate": [],
+    "broom": [],
+    "bucket": [],
+    "buckle": [],
+    "bulletproof_vest": [],
+    "bullet_train": [],
+    "butcher_shop": [],
+    "cab": [],
+    "caldron": [],
+    "candle": [],
+    "cannon": [
+        "/mnt/ssd1/ImageNet/train/471/n02950826_17010.JPEG",
+        "/mnt/ssd1/ImageNet/train/471/n02950826_2017.JPEG"
+    ],
+    "canoe": [],
+    "can_opener": [],
+    "cardigan": [],
+    "car_mirror": [],
+    "carousel": [],
+    "carpenter's_kit": [],
+    "carton": [],
+    "car_wheel": [
+        "/mnt/ssd1/ImageNet/train/479/n02974003_1416.JPEG"
+    ],
+    "cash_machine": [
+        "/mnt/ssd1/ImageNet/train/480/n02977058_7335.JPEG"
+    ],
+    "cassette": [
+        "/mnt/ssd1/ImageNet/train/481/n02978881_5397.JPEG"
+    ],
+    "cassette_player": [
+        "/mnt/ssd1/ImageNet/train/482/n02979186_465.JPEG",
+        "/mnt/ssd1/ImageNet/train/482/n02979186_603.JPEG"
+    ],
+    "castle": [
+        "/mnt/ssd1/ImageNet/train/483/n02980441_5425.JPEG"
+    ],
+    "catamaran": [],
+    "CD_player": [],
+    "cello": [
+        "/mnt/ssd1/ImageNet/train/486/n02992211_29267.JPEG"
+    ],
+    "cellular_telephone": [],
+    "chain": [],
+    "chainlink_fence": [
+        "/mnt/ssd1/ImageNet/train/489/n03000134_771.JPEG"
+    ],
+    "chain_mail": [],
+    "chain_saw": [],
+    "chest": [],
+    "chiffonier": [],
+    "chime": [],
+    "china_cabinet": [],
+    "Christmas_stocking": [],
+    "church": [],
+    "cinema": [
+        "/mnt/ssd1/ImageNet/train/498/n03032252_25879.JPEG",
+        "/mnt/ssd1/ImageNet/train/498/n03032252_68961.JPEG"
+    ],
+    "cleaver": [],
+    "cliff_dwelling": [],
+    "cloak": [
+        "/mnt/ssd1/ImageNet/train/501/n03045698_14144.JPEG"
+    ],
+    "clog": [],
+    "cocktail_shaker": [],
+    "coffee_mug": [],
+    "coffeepot": [],
+    "coil": [],
+    "combination_lock": [],
+    "computer_keyboard": [
+        "/mnt/ssd1/ImageNet/train/508/n03085013_23201.JPEG"
+    ],
+    "confectionery": [
+        "/mnt/ssd1/ImageNet/train/509/n03089624_22409.JPEG"
+    ],
+    "container_ship": [],
+    "convertible": [],
+    "corkscrew": [],
+    "cornet": [],
+    "cowboy_boot": [],
+    "cowboy_hat": [],
+    "cradle": [
+        "/mnt/ssd1/ImageNet/train/516/n03125729_11891.JPEG",
+        "/mnt/ssd1/ImageNet/train/516/n03125729_12164.JPEG",
+        "/mnt/ssd1/ImageNet/train/516/n03125729_12168.JPEG"
+    ],
+    "crash_helmet": [],
+    "crate": [],
+    "crib": [],
+    "Crock_Pot": [],
+    "croquet_ball": [],
+    "crutch": [],
+    "cuirass": [],
+    "dam": [],
+    "desk": [],
+    "desktop_computer": [],
+    "dial_telephone": [],
+    "diaper": [],
+    "digital_clock": [
+        "/mnt/ssd1/ImageNet/train/530/n03196217_4361.JPEG"
+    ],
+    "digital_watch": [
+        "/mnt/ssd1/ImageNet/train/531/n03197337_12022.JPEG"
+    ],
+    "dining_table": [],
+    "dishrag": [],
+    "dishwasher": [],
+    "disk_brake": [],
+    "dock": [],
+    "dogsled": [],
+    "dome": [],
+    "doormat": [],
+    "drilling_platform": [],
+    "drum": [],
+    "drumstick": [],
+    "dumbbell": [],
+    "Dutch_oven": [],
+    "electric_fan": [],
+    "electric_guitar": [],
+    "electric_locomotive": [],
+    "entertainment_center": [],
+    "envelope": [],
+    "espresso_maker": [],
+    "face_powder": [
+        "/mnt/ssd1/ImageNet/train/551/n03314780_7606.JPEG",
+        "/mnt/ssd1/ImageNet/train/551/n03314780_9823.JPEG"
+    ],
+    "feather_boa": [],
+    "file": [],
+    "fireboat": [],
+    "fire_engine": [
+        "/mnt/ssd1/ImageNet/train/555/n03345487_3170.JPEG"
+    ],
+    "fire_screen": [],
+    "flagpole": [],
+    "flute": [],
+    "folding_chair": [],
+    "football_helmet": [],
+    "forklift": [],
+    "fountain": [],
+    "fountain_pen": [],
+    "four-poster": [],
+    "freight_car": [],
+    "French_horn": [],
+    "frying_pan": [],
+    "fur_coat": [],
+    "garbage_truck": [],
+    "gasmask": [],
+    "gas_pump": [],
+    "goblet": [],
+    "go-kart": [],
+    "golf_ball": [],
+    "golfcart": [],
+    "gondola": [],
+    "gong": [],
+    "gown": [],
+    "grand_piano": [],
+    "greenhouse": [],
+    "grille": [],
+    "grocery_store": [],
+    "guillotine": [],
+    "hair_slide": [],
+    "hair_spray": [],
+    "half_track": [],
+    "hammer": [],
+    "hamper": [],
+    "hand_blower": [],
+    "hand-held_computer": [
+        "/mnt/ssd1/ImageNet/train/590/n03485407_590.JPEG"
+    ],
+    "handkerchief": [
+        "/mnt/ssd1/ImageNet/train/591/n03485794_36992.JPEG"
+    ],
+    "hard_disc": [
+        "/mnt/ssd1/ImageNet/train/592/n03492542_3937.JPEG"
+    ],
+    "harmonica": [],
+    "harp": [],
+    "harvester": [],
+    "hatchet": [],
+    "holster": [],
+    "home_theater": [
+        "/mnt/ssd1/ImageNet/train/598/n03529860_3348.JPEG",
+        "/mnt/ssd1/ImageNet/train/598/n03529860_9822.JPEG"
+    ],
+    "honeycomb": [],
+    "hook": [
+        "/mnt/ssd1/ImageNet/train/600/n03532672_40345.JPEG",
+        "/mnt/ssd1/ImageNet/train/600/n03532672_8687.JPEG"
+    ],
+    "hoopskirt": [],
+    "horizontal_bar": [],
+    "horse_cart": [],
+    "hourglass": [],
+    "iPod": [],
+    "iron": [],
+    "jack-o'-lantern": [],
+    "jean": [],
+    "jeep": [],
+    "jersey": [],
+    "jigsaw_puzzle": [],
+    "jinrikisha": [],
+    "joystick": [
+        "/mnt/ssd1/ImageNet/train/613/n03602883_6169.JPEG"
+    ],
+    "kimono": [],
+    "knee_pad": [],
+    "knot": [],
+    "lab_coat": [],
+    "ladle": [],
+    "lampshade": [],
+    "laptop": [],
+    "lawn_mower": [],
+    "lens_cap": [],
+    "letter_opener": [],
+    "library": [],
+    "lifeboat": [],
+    "lighter": [],
+    "limousine": [],
+    "liner": [],
+    "lipstick": [],
+    "Loafer": [],
+    "lotion": [
+        "/mnt/ssd1/ImageNet/train/631/n03690938_1989.JPEG",
+        "/mnt/ssd1/ImageNet/train/631/n03690938_6641.JPEG"
+    ],
+    "loudspeaker": [
+        "/mnt/ssd1/ImageNet/train/632/n03691459_40988.JPEG"
+    ],
+    "loupe": [],
+    "lumbermill": [
+        "/mnt/ssd1/ImageNet/train/634/n03697007_19641.JPEG",
+        "/mnt/ssd1/ImageNet/train/634/n03697007_5141.JPEG"
+    ],
+    "magnetic_compass": [
+        "/mnt/ssd1/ImageNet/train/635/n03706229_5259.JPEG"
+    ],
+    "mailbag": [],
+    "mailbox": [],
+    "maillot": [],
+    "manhole_cover": [],
+    "maraca": [],
+    "marimba": [],
+    "mask": [
+        "/mnt/ssd1/ImageNet/train/643/n03724870_16020.JPEG",
+        "/mnt/ssd1/ImageNet/train/643/n03724870_55663.JPEG"
+    ],
+    "matchstick": [],
+    "maypole": [],
+    "maze": [],
+    "measuring_cup": [],
+    "medicine_chest": [],
+    "megalith": [
+        "/mnt/ssd1/ImageNet/train/649/n03743016_4793.JPEG"
+    ],
+    "microphone": [],
+    "microwave": [
+        "/mnt/ssd1/ImageNet/train/651/n03761084_28258.JPEG"
+    ],
+    "military_uniform": [],
+    "milk_can": [
+        "/mnt/ssd1/ImageNet/train/653/n03764736_18995.JPEG"
+    ],
+    "minibus": [],
+    "miniskirt": [],
+    "minivan": [],
+    "missile": [
+        "/mnt/ssd1/ImageNet/train/657/n03773504_7224.JPEG"
+    ],
+    "mitten": [
+        "/mnt/ssd1/ImageNet/train/658/n03775071_5593.JPEG"
+    ],
+    "mixing_bowl": [
+        "/mnt/ssd1/ImageNet/train/659/n03775546_1729.JPEG"
+    ],
+    "mobile_home": [],
+    "Model_T": [],
+    "modem": [],
+    "monastery": [],
+    "monitor": [],
+    "moped": [],
+    "mortar": [],
+    "mortarboard": [],
+    "mosque": [],
+    "mosquito_net": [],
+    "motor_scooter": [],
+    "mountain_bike": [],
+    "mountain_tent": [],
+    "mouse": [],
+    "mousetrap": [
+        "/mnt/ssd1/ImageNet/train/674/n03794056_10581.JPEG"
+    ],
+    "moving_van": [],
+    "muzzle": [],
+    "nail": [],
+    "neck_brace": [],
+    "necklace": [],
+    "nipple": [
+        "/mnt/ssd1/ImageNet/train/680/n03825788_15840.JPEG",
+        "/mnt/ssd1/ImageNet/train/680/n03825788_29182.JPEG"
+    ],
+    "notebook": [],
+    "obelisk": [],
+    "oboe": [],
+    "ocarina": [],
+    "odometer": [],
+    "oil_filter": [],
+    "organ": [],
+    "oscilloscope": [
+        "/mnt/ssd1/ImageNet/train/688/n03857828_10631.JPEG",
+        "/mnt/ssd1/ImageNet/train/688/n03857828_11218.JPEG"
+    ],
+    "overskirt": [],
+    "oxcart": [],
+    "oxygen_mask": [],
+    "packet": [
+        "/mnt/ssd1/ImageNet/train/692/n03871628_24372.JPEG",
+        "/mnt/ssd1/ImageNet/train/692/n03871628_5844.JPEG"
+    ],
+    "paddle": [],
+    "paddlewheel": [],
+    "padlock": [
+        "/mnt/ssd1/ImageNet/train/695/n03874599_8925.JPEG"
+    ],
+    "paintbrush": [],
+    "pajama": [],
+    "palace": [],
+    "panpipe": [],
+    "paper_towel": [],
+    "parachute": [],
+    "parallel_bars": [],
+    "park_bench": [],
+    "parking_meter": [],
+    "passenger_car": [
+        "/mnt/ssd1/ImageNet/train/705/n03895866_101796.JPEG"
+    ],
+    "patio": [
+        "/mnt/ssd1/ImageNet/train/706/n03899768_57692.JPEG"
+    ],
+    "pay-phone": [],
+    "pedestal": [],
+    "pencil_box": [],
+    "pencil_sharpener": [],
+    "perfume": [],
+    "Petri_dish": [],
+    "photocopier": [],
+    "pick": [
+        "/mnt/ssd1/ImageNet/train/714/n03929660_61230.JPEG"
+    ],
+    "pickelhaube": [],
+    "picket_fence": [],
+    "pickup": [],
+    "pier": [
+        "/mnt/ssd1/ImageNet/train/718/n03933933_3637.JPEG"
+    ],
+    "piggy_bank": [],
+    "pill_bottle": [],
+    "pillow": [
+        "/mnt/ssd1/ImageNet/train/721/n03938244_17499.JPEG"
+    ],
+    "ping-pong_ball": [],
+    "pinwheel": [],
+    "pirate": [],
+    "pitcher": [],
+    "plane": [],
+    "planetarium": [],
+    "plastic_bag": [],
+    "plate_rack": [],
+    "plow": [
+        "/mnt/ssd1/ImageNet/train/730/n03967562_7155.JPEG",
+        "/mnt/ssd1/ImageNet/train/730/n03967562_7691.JPEG"
+    ],
+    "plunger": [],
+    "Polaroid_camera": [],
+    "pole": [],
+    "police_van": [],
+    "poncho": [],
+    "pool_table": [],
+    "pop_bottle": [],
+    "pot": [],
+    "potter's_wheel": [],
+    "power_drill": [],
+    "prayer_rug": [
+        "/mnt/ssd1/ImageNet/train/741/n03998194_8113.JPEG"
+    ],
+    "printer": [
+        "/mnt/ssd1/ImageNet/train/742/n04004767_12975.JPEG"
+    ],
+    "prison": [],
+    "projectile": [],
+    "projector": [],
+    "puck": [],
+    "punching_bag": [],
+    "purse": [],
+    "quill": [],
+    "quilt": [],
+    "racer": [],
+    "racket": [],
+    "radiator": [],
+    "radio": [
+        "/mnt/ssd1/ImageNet/train/754/n04041544_6499.JPEG"
+    ],
+    "radio_telescope": [
+        "/mnt/ssd1/ImageNet/train/755/n04044716_21842.JPEG"
+    ],
+    "rain_barrel": [],
+    "recreational_vehicle": [],
+    "reel": [],
+    "reflex_camera": [],
+    "refrigerator": [],
+    "remote_control": [
+        "/mnt/ssd1/ImageNet/train/761/n04074963_21078.JPEG",
+        "/mnt/ssd1/ImageNet/train/761/n04074963_40029.JPEG"
+    ],
+    "restaurant": [
+        "/mnt/ssd1/ImageNet/train/762/n04081281_119643.JPEG",
+        "/mnt/ssd1/ImageNet/train/762/n04081281_131435.JPEG"
+    ],
+    "revolver": [
+        "/mnt/ssd1/ImageNet/train/763/n04086273_19215.JPEG"
+    ],
+    "rifle": [],
+    "rocking_chair": [],
+    "rotisserie": [],
+    "rubber_eraser": [],
+    "rugby_ball": [],
+    "rule": [
+        "/mnt/ssd1/ImageNet/train/769/n04118776_1804.JPEG"
+    ],
+    "running_shoe": [],
+    "safe": [],
+    "safety_pin": [],
+    "saltshaker": [],
+    "sandal": [],
+    "sarong": [],
+    "sax": [],
+    "scabbard": [],
+    "scale": [],
+    "school_bus": [],
+    "schooner": [],
+    "scoreboard": [],
+    "screen": [],
+    "screw": [],
+    "screwdriver": [],
+    "seat_belt": [],
+    "sewing_machine": [],
+    "shield": [],
+    "shoe_shop": [],
+    "shoji": [
+        "/mnt/ssd1/ImageNet/train/789/n04201297_3621.JPEG"
+    ],
+    "shopping_basket": [],
+    "shopping_cart": [],
+    "shovel": [],
+    "shower_cap": [],
+    "shower_curtain": [],
+    "ski": [
+        "/mnt/ssd1/ImageNet/train/795/n04228054_1990.JPEG"
+    ],
+    "ski_mask": [
+        "/mnt/ssd1/ImageNet/train/796/n04229816_8970.JPEG"
+    ],
+    "sleeping_bag": [],
+    "slide_rule": [],
+    "sliding_door": [],
+    "slot": [],
+    "snorkel": [],
+    "snowmobile": [],
+    "snowplow": [],
+    "soap_dispenser": [],
+    "soccer_ball": [],
+    "sock": [],
+    "solar_dish": [],
+    "sombrero": [],
+    "soup_bowl": [],
+    "space_bar": [],
+    "space_heater": [],
+    "space_shuttle": [],
+    "spatula": [],
+    "speedboat": [],
+    "spider_web": [
+        "/mnt/ssd1/ImageNet/train/815/n04275548_1031.JPEG"
+    ],
+    "spindle": [],
+    "sports_car": [],
+    "spotlight": [
+        "/mnt/ssd1/ImageNet/train/818/n04286575_64492.JPEG"
+    ],
+    "stage": [],
+    "steam_locomotive": [],
+    "steel_arch_bridge": [],
+    "steel_drum": [],
+    "stethoscope": [],
+    "stole": [],
+    "stone_wall": [],
+    "stopwatch": [],
+    "stove": [],
+    "strainer": [],
+    "streetcar": [],
+    "stretcher": [],
+    "studio_couch": [
+        "/mnt/ssd1/ImageNet/train/831/n04344873_3599.JPEG"
+    ],
+    "stupa": [],
+    "submarine": [],
+    "suit": [],
+    "sundial": [],
+    "sunglass": [
+        "/mnt/ssd1/ImageNet/train/836/n04355933_1693.JPEG"
+    ],
+    "sunglasses": [],
+    "sunscreen": [],
+    "suspension_bridge": [],
+    "swab": [],
+    "sweatshirt": [],
+    "swimming_trunks": [],
+    "swing": [],
+    "switch": [],
+    "syringe": [],
+    "table_lamp": [],
+    "tank": [],
+    "tape_player": [],
+    "teapot": [],
+    "teddy": [],
+    "television": [],
+    "tennis_ball": [],
+    "thatch": [],
+    "theater_curtain": [],
+    "thimble": [],
+    "thresher": [],
+    "throne": [],
+    "tile_roof": [],
+    "toaster": [],
+    "tobacco_shop": [
+        "/mnt/ssd1/ImageNet/train/860/n04443257_34633.JPEG",
+        "/mnt/ssd1/ImageNet/train/860/n04443257_8635.JPEG",
+        "/mnt/ssd1/ImageNet/train/860/n04443257_9328.JPEG"
+    ],
+    "toilet_seat": [],
+    "torch": [],
+    "totem_pole": [],
+    "tow_truck": [],
+    "toyshop": [],
+    "tractor": [],
+    "trailer_truck": [],
+    "tray": [],
+    "trench_coat": [],
+    "tricycle": [],
+    "trimaran": [],
+    "tripod": [],
+    "triumphal_arch": [],
+    "trolleybus": [],
+    "trombone": [],
+    "tub": [
+        "/mnt/ssd1/ImageNet/train/876/n04493381_12551.JPEG"
+    ],
+    "turnstile": [],
+    "typewriter_keyboard": [
+        "/mnt/ssd1/ImageNet/train/878/n04505470_4584.JPEG"
+    ],
+    "umbrella": [],
+    "unicycle": [],
+    "upright": [],
+    "vacuum": [],
+    "vase": [],
+    "vault": [
+        "/mnt/ssd1/ImageNet/train/884/n04523525_6748.JPEG",
+        "/mnt/ssd1/ImageNet/train/884/n04523525_8095.JPEG"
+    ],
+    "velvet": [],
+    "vending_machine": [],
+    "vestment": [],
+    "viaduct": [
+        "/mnt/ssd1/ImageNet/train/888/n04532670_22449.JPEG"
+    ],
+    "violin": [],
+    "volleyball": [],
+    "waffle_iron": [],
+    "wall_clock": [],
+    "wallet": [],
+    "wardrobe": [],
+    "warplane": [],
+    "washbasin": [],
+    "washer": [],
+    "water_bottle": [
+        "/mnt/ssd1/ImageNet/train/898/n04557648_20614.JPEG"
+    ],
+    "water_jug": [],
+    "water_tower": [],
+    "whiskey_jug": [],
+    "whistle": [
+        "/mnt/ssd1/ImageNet/train/902/n04579432_19001.JPEG"
+    ],
+    "wig": [],
+    "window_screen": [
+        "/mnt/ssd1/ImageNet/train/904/n04589890_2469.JPEG"
+    ],
+    "window_shade": [],
+    "Windsor_tie": [],
+    "wine_bottle": [
+        "/mnt/ssd1/ImageNet/train/907/n04591713_5419.JPEG"
+    ],
+    "wing": [],
+    "wok": [],
+    "wooden_spoon": [],
+    "wool": [],
+    "worm_fence": [],
+    "wreck": [],
+    "yawl": [
+        "/mnt/ssd1/ImageNet/train/914/n04612504_5688.JPEG"
+    ],
+    "yurt": [],
+    "web_site": [
+        "/mnt/ssd1/ImageNet/train/916/n06359193_21682.JPEG",
+        "/mnt/ssd1/ImageNet/train/916/n06359193_3654.JPEG"
+    ],
+    "comic_book": [
+        "/mnt/ssd1/ImageNet/train/917/n06596364_15287.JPEG",
+        "/mnt/ssd1/ImageNet/train/917/n06596364_2398.JPEG"
+    ],
+    "crossword_puzzle": [],
+    "street_sign": [
+        "/mnt/ssd1/ImageNet/train/919/n06794110_2315.JPEG"
+    ],
+    "traffic_light": [],
+    "book_jacket": [
+        "/mnt/ssd1/ImageNet/train/921/n07248320_4734.JPEG"
+    ],
+    "menu": [],
+    "plate": [],
+    "guacamole": [],
+    "consomme": [
+        "/mnt/ssd1/ImageNet/train/925/n07584110_8535.JPEG"
+    ],
+    "hot_pot": [],
+    "trifle": [],
+    "ice_cream": [],
+    "ice_lolly": [],
+    "French_loaf": [],
+    "bagel": [],
+    "pretzel": [],
+    "cheeseburger": [],
+    "hotdog": [],
+    "mashed_potato": [],
+    "head_cabbage": [],
+    "broccoli": [],
+    "cauliflower": [],
+    "zucchini": [],
+    "spaghetti_squash": [],
+    "acorn_squash": [],
+    "butternut_squash": [],
+    "cucumber": [],
+    "artichoke": [],
+    "bell_pepper": [],
+    "cardoon": [],
+    "mushroom": [],
+    "Granny_Smith": [
+        "/mnt/ssd1/ImageNet/train/948/n07742313_10952.JPEG"
+    ],
+    "strawberry": [],
+    "orange": [],
+    "lemon": [],
+    "fig": [],
+    "pineapple": [],
+    "banana": [],
+    "jackfruit": [],
+    "custard_apple": [],
+    "pomegranate": [],
+    "hay": [],
+    "carbonara": [],
+    "chocolate_sauce": [],
+    "dough": [
+        "/mnt/ssd1/ImageNet/train/961/n07860988_5772.JPEG"
+    ],
+    "meat_loaf": [],
+    "pizza": [],
+    "potpie": [],
+    "burrito": [],
+    "red_wine": [],
+    "espresso": [],
+    "cup": [],
+    "eggnog": [],
+    "alp": [
+        "/mnt/ssd1/ImageNet/train/970/n09193705_29118.JPEG",
+        "/mnt/ssd1/ImageNet/train/970/n09193705_5979.JPEG"
+    ],
+    "bubble": [],
+    "cliff": [],
+    "coral_reef": [],
+    "geyser": [],
+    "lakeside": [],
+    "promontory": [],
+    "sandbar": [
+        "/mnt/ssd1/ImageNet/train/977/n09421951_24028.JPEG"
+    ],
+    "seashore": [],
+    "valley": [],
+    "volcano": [],
+    "ballplayer": [],
+    "groom": [],
+    "scuba_diver": [],
+    "rapeseed": [],
+    "daisy": [],
+    "yellow_lady's_slipper": [],
+    "corn": [],
+    "acorn": [],
+    "hip": [],
+    "buckeye": [],
+    "coral_fungus": [
+        "/mnt/ssd1/ImageNet/train/991/n12985857_3452.JPEG"
+    ],
+    "agaric": [],
+    "gyromitra": [],
+    "stinkhorn": [],
+    "earthstar": [
+        "/mnt/ssd1/ImageNet/train/995/n13044778_2744.JPEG",
+        "/mnt/ssd1/ImageNet/train/995/n13044778_301.JPEG"
+    ],
+    "hen-of-the-woods": [
+        "/mnt/ssd1/ImageNet/train/996/n13052670_10252.JPEG",
+        "/mnt/ssd1/ImageNet/train/996/n13052670_2316.JPEG",
+        "/mnt/ssd1/ImageNet/train/996/n13052670_3961.JPEG",
+        "/mnt/ssd1/ImageNet/train/996/n13052670_5298.JPEG",
+        "/mnt/ssd1/ImageNet/train/996/n13052670_5364.JPEG"
+    ],
+    "bolete": [],
+    "ear": [
+        "/mnt/ssd1/ImageNet/train/998/n13133613_20802.JPEG"
+    ],
+    "toilet_tissue": []
+}
