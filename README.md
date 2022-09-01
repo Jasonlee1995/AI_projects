@@ -30,9 +30,10 @@
 
 
 ## 02. Example Forgetting
-- Goal : check Example forgetting 
+- Goal : check data with no learning events among 8 randon seeds
 - Details
   - ResNet 50 mixed precision training on ImageNet-1K
+  - 8 random trials per every epochs
   - All the experiments are done with 1 RTX A5000 GPU
 
 ### Base Configuration
